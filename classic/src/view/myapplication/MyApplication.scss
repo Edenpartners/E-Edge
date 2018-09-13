@@ -1,0 +1,95 @@
+#my-app-container {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1));
+  .x-toolbar-footer {
+    background: none;
+  }
+  .x-form-item-label-text {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .x-form-cb-label {
+    color: #ffffff;
+  }
+
+  .register-btn {
+    background-color: rgba(126, 211, 33, 0.4);
+    border: none;
+    border-radius: 3px;
+  }
+
+  .clear-btn {
+    background-color: rgba(155, 155, 155 , 0.4);
+    border: none;
+    border-radius: 3px;
+  }
+
+  .delete-btn {
+    background-color: rgba(215, 74, 0, 0.4);
+    border: none;
+    border-radius: 3px;
+  }
+
+  .myapp-list-wrapper {
+    .x-panel-body-default {
+      background: none;
+      .info-card-item {
+        background: none;
+      }
+      .x-panel-body-light {
+        background: none;
+      }
+
+    }
+    .x-panel-body {
+      border: none;
+    }
+    .x-panel-header-light {
+      background: none;
+    }
+    .x-panel-body-light {
+      background: none;
+    }
+    .x-grid-header-ct {
+      border: none;
+      background: none;
+    }
+    .x-column-header {
+      border: none;
+      background: none;
+    }
+    .x-grid-item {
+      border: none;
+      background: none;
+      &.x-grid-item-over {
+        background-color: rgba(255,255,255,0.4);
+      }
+      &.x-grid-item-selected {
+        background-color: rgba(255,255,255,0.4);
+      }
+    }
+
+    .x-grid-cell {
+      color: white;
+    }
+    .x-panel-header {
+      padding-left: 0;
+    }
+    .x-column-header-text-inner {
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .x-grid-cell-inner {
+      color: white;
+      font-size: 16px;
+      padding-top: 12px;
+    }
+    .x-btn-icon-el {
+      color: #FFFFFF;
+    }
+    .x-toolbar-text {
+      color: #FFFFFF;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/build
+bootstrap.*
+classic.json*
+modern.json*
+.sencha
+.DS_Store
+.idea
+
+temp/
+touch/
+dist/
+.sencha_backup/
+gwt-unitCache
+.sass-cache/
+sencha-error-*

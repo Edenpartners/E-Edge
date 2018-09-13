@@ -1,0 +1,62 @@
+.x-body {
+  background: black;
+}
+.signin-container {
+  border: none;
+  .icon-signin-container {
+    margin-top: 30px;
+    .logo-img {
+      background-image: url(../resources/images/logo.png);
+      background-size: contain;
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  .round-input {
+    .x-form-item-body {
+      max-width: 200px;
+      margin: 0 auto;
+      display: block;
+    }
+    .x-form-trigger-wrap {
+      border: none;
+      input {
+        width: 240px;
+        height: 34px;
+        border-radius: 17px;
+        border: 1px solid #9B9B9B;
+      }
+    }
+  }
+  .round-button {
+    width: 240px;
+    height: 34px;
+    border-radius: 17px;
+    border: 1px solid #9B9B9B;
+    background-image: url("../resources/images/sign_in.png");
+    background-size: cover;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .form-title {
+
+  }
+
+  .form-login-wrapper {
+    text-align: center;
+  }
+
+  .reference-block {
+    width: 240px;
+    margin: 0 auto;
+    .ref-link {
+      margin-top: 10px;
+      text-decoration: none;
+      font-size: 13px;
+      color: #9B9B9B;
+    }
+  }
+}

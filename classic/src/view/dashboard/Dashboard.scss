@@ -1,0 +1,102 @@
+#dashboard-container {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1));
+  .dashboard-upper {
+    .x-panel-body-default {
+      background: none;
+      .info-card-item {
+        background: none;
+        margin-top: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        margin-right: 30px;
+        margin-left: 30px;
+        h2 {
+          color: #08F2F8;
+          font-size: 48px;
+          line-height: 58px;
+        }
+        div {
+          color: #FFFFFF;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+      .x-panel-body-light {
+        background: none;
+      }
+      .x-panel-header-light {
+        background: none;
+      }
+      .x-title-text {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+  .my-app-wrapper {
+    .x-panel-body-default {
+      background: none;
+      .info-card-item {
+        background: none;
+      }
+      .x-panel-body-light {
+        background: none;
+      }
+
+    }
+    .x-panel-body {
+      border: none;
+    }
+    .x-panel-header-light {
+      background: none;
+    }
+    .x-panel-body-light {
+      background: none;
+    }
+    .x-grid-header-ct {
+      border: none;
+      background: none;
+    }
+    .x-column-header {
+      border: none;
+      background: none;
+    }
+    .x-grid-item {
+      border: none;
+      background: none;
+      &.x-grid-item-over {
+        background-color: rgba(255,255,255,0.4);
+      }
+      &.x-grid-item-selected {
+        background-color: rgba(255,255,255,0.4);
+      }
+    }
+
+    .x-grid-cell {
+      color: white;
+    }
+    .x-panel-header {
+      padding-left: 0;
+    }
+    .x-title-text {
+      display: block;
+      border-bottom: 2px solid #08F2F8;
+      font-size: 20px;
+      font-weight: bold;
+      width: 180px;
+      padding-bottom: 10px;
+      margin-left: 70px;
+      color: white;
+    }
+    .x-column-header-text-inner {
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .x-grid-cell-inner {
+      color: white;
+      font-size: 16px;
+      padding-top: 12px;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+#setting-container {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1));
+  .x-panel-body-default {
+    background: none;
+  }
+  .x-toolbar-footer {
+    background: none;
+  }
+  .x-fieldset-header {
+    div {
+      font-size: 20px;
+      color: rgba(8, 242, 248, 1);
+    }
+  }
+  .x-form-item-label-text {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .x-form-cb-label {
+    color: #ffffff;
+  }
+
+  .x-fieldset {
+    margin-bottom: 20px;
+    border: none !important;
+    border-radius: 4px;
+  }
+
+  .register-btn {
+    background-color: rgba(126, 211, 33, 0.4);
+    border: none;
+    border-radius: 3px;
+  }
+
+  .clear-btn {
+    background-color: rgba(155, 155, 155 , 0.4);
+    border: none;
+    border-radius: 3px;
+  }
+
+  .delete-btn {
+    background-color: rgba(215, 74, 0, 0.4);
+    border: none;
+    border-radius: 3px;
+  }
+  .x-form-item-label-default {
+    padding-left: 13px;
+  }
+}
